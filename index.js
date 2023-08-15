@@ -1,6 +1,6 @@
 const { getUserInput } = require("./lib/userInput");
 const { generateSVG } = require("./lib/svgFileHandler");
-const { saveSVGToFile } = require("./lib/fileHandler"); // Import the saveSVGToFile function
+const { saveSVGToFile } = require("./lib/svgFileHandler"); // Import the saveSVGToFile function
 
 (async () => {
   const userInput = await getUserInput();
