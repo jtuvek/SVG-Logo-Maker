@@ -5,6 +5,4 @@ const { generateSVG } = require("./lib/svgFileHandler");
   const userInput = await getUserInput();
 
   generateSVG(userInput.shape, userInput.shapeColor, userInput.text, userInput.textColor);
-
-  console.log("Generated logo.svg");
 })();
